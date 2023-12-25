@@ -5,7 +5,9 @@ import InputTodos from './components/InputTodos';
 function App() {
   return (
    <Fragment>
-    <InputTodos/>
+    <div className="container">
+      <InputTodos/>
+    </div>
    </Fragment>
   );
 }
