@@ -21,7 +21,7 @@ const InputTodos=()=>{
 
     return(
         <Fragment>
-             <h1 className="text-center mt-5">Todo List</h1>
+             <h1 className="text-center mt-5">Todo List App</h1>
              <form className="d-flex mt-5">
                 <input className="form-control" type="text" value={description} onChange={e=>setDescription(e.target.value)}/>
                 <button className="btn btn-success" onSubmit={onSubmitForm}>Add</button>
